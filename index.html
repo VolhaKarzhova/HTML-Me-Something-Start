@@ -3,65 +3,58 @@
 
 <head>
    <title>Russian cuisine</title>
+   <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
    <!-- Write your HTML in this file! -->
-   <header>Run out of ideas what to have for dinner? Check our best Russian dishes for inspiration.</header>
+   <header id="mainHeading">Run out of ideas what to have for dinner? Check our best Russian dishes for the inspiration.
+   </header>
    <main>
-      <div>
+      <div class="grid-container">
          <a href="#Pelmeni">
             <div>
-               <img src="images/pelmeni.jpg">
+               <img class="link" src="images/pelmeni.jpg">
             </div>
-            <div>
-               <span>Pelmeni</span>
-            </div>
+            <div class="center">Pelmeni</div>
          </a>
          <a href="#Borscht">
             <div>
-               <img src="images/borscht.jpg">
+               <img class="link" src="images/borscht.jpg">
             </div>
-            <div>
-               <span>Borscht</span>
-            </div>
+            <div class="center">Borscht</div>
          </a>
          <a href="#Beef">
             <div>
-               <img src="images/beef.jpeg">
+               <img class="link" src="images/beef.jpeg">
             </div>
-            <div>
-               <span>Beef Stroganoff</span>
-            </div>
+            <div class="center">Beef Stroganoff</div>
          </a>
          <a href="#Pirozhki">
             <div>
-               <img src="images/pirozhki.jpg">
+               <img class="link" src="images/pirozhki.jpg">
             </div>
-            <div>
-               <span>Pirozhki</span>
-            </div>
+            <div class="center">Pirozhki</div>
          </a>
          <a href="#Kholodets">
             <div>
-               <img src="images/kholodets.jpg">
+               <img class="link" src="images/kholodets.jpg">
             </div>
-            <div>
-               <span>Kholodets</span>
-            </div>
+            <div class="center">Kholodets</div>
          </a>
 
       </div>
       <article>
          <section>
             <a name="Pelmeni"></a>
-            <h3>Pelmeni</h3>
+            <h1>Pelmeni</h1>
             <figure>
                <img src="images/pelmeni.jpg" alt="Pelmeni">
-               <figcaption>Borscht in Russian &xrarr; Борщ</figcaption>
+               <figcaption class="description">Pelmeni in Russian &xrarr; Пельмени</figcaption>
             </figure>
-            <div>&nbsp;</div>
-            <p>When you think about Russian food, pelmeni are probably the first dish that comes to mind. Pelmeni are
+            <div class="line">&nbsp;</div>
+            <p class="funParagraph">When you think about Russian food, pelmeni are probably the first dish that comes to
+               mind. Pelmeni are
                bite-sized dumplings made with ground meat (usually beef or lamb), that are boiled and then most commonly
                served with sour cream (though they can come as a soup or served with butter, mustard, or vinegar).
                Though
@@ -73,13 +66,14 @@
          </section>
          <section>
             <a name="Borscht"></a>
-            <h3>Russian Borscht</h3>
+            <h1>Russian Borscht</h1>
             <figure>
                <img src="images/borscht.jpg" alt="Borscht">
-               <figcaption>Borscht in Russian &xrarr; Борщ</figcaption>
+               <figcaption class="description">Borscht in Russian &xrarr; Борщ</figcaption>
             </figure>
-            <div>&nbsp;</div>
-            <p>There is a Borscht joke that says that if you put a spoon in it, and it stands – you did it right.
+            <div class="line">&nbsp;</div>
+            <p id="testP" class="funParagraph">There is a Borscht joke that says that if you put a spoon in it, and it
+               stands – you did it right.
                Borscht is a beet soup that originated in Ukraine and was quickly adopted as a Russian specialty. Beets
                may seem like a strange base for soup to many Westerners, but there are plenty of reasons that this
                hearty soup is one of Russia's most famous dishes. It is full of meat and sautéed vegetables, including
@@ -89,26 +83,28 @@
          </section>
          <section>
             <a name="Beef"></a>
-            <h3>Beef Stroganoff</h3>
+            <h1>Beef Stroganoff</h1>
             <figure>
                <img src="images/beef.jpeg" alt="Beef Stroganoff">
-               <figcaption>Beef Stroganoff in Russian &xrarr; Бефстро́ганов</figcaption>
+               <figcaption class="description">Beef Stroganoff in Russian &xrarr; Бефстро́ганов</figcaption>
             </figure>
-            <div>&nbsp;</div>
-            <p>Beef stroganoff consists of sauteed beef strips served in a creamy sauce with mushrooms or tomatoes,
+            <div class="line">&nbsp;</div>
+            <p class="funParagraph">Beef stroganoff consists of sauteed beef strips served in a creamy sauce with
+               mushrooms or tomatoes,
                often served with rice, noodles, or potatoes. This recipe has a long history, and many variations for its
                preparation exist, but its roots are in mid-19th-century Russia.
             </p>
          </section>
          <section>
             <a name="Pirozhki"></a>
-            <h3>Pirozhki</h3>
+            <h1>Pirozhki</h1>
             <figure>
                <img src="images/pirozhki.jpg" alt="Pirozhki">
-               <figcaption>Pirozhki in Russian &xrarr; Пирожки</figcaption>
+               <figcaption class="description">Pirozhki in Russian &xrarr; Пирожки</figcaption>
             </figure>
-            <div>&nbsp;</div>
-            <p>Soft as a pillow, caramelized on the edges and stuffed with rich fillings; Russian pirozhki are
+            <div class="line">&nbsp;</div>
+            <p class="funParagraph">Soft as a pillow, caramelized on the edges and stuffed with rich fillings; Russian
+               pirozhki are
                dangerously moreish. In fact in the 1950's, one opportunistic Japanese chef decided to capitalize on the
                deliciousness of pirozhki, by pretending that it was his original invention. Hazuo Tomita managed to
                patent the pies and earned a pretty pile of money from the royalties of Japanese pie-sellers till some
@@ -122,13 +118,14 @@
          </section>
          <section>
             <a name="Kholodets"></a>
-            <h3>Kholodets</h3>
+            <h1>Kholodets</h1>
             <figure>
                <img src="images/kholodets.jpg" alt="Kholodets">
-               <figcaption>Kholodets in Russian &xrarr; Холодец</figcaption>
+               <figcaption class="description">Kholodets in Russian &xrarr; Холодец</figcaption>
             </figure>
-            <div>&nbsp;</div>
-            <p>Meat jelly, or aspic, has been a staple around the world for centuries, and is a popular dish served with
+            <div class="line">&nbsp;</div>
+            <p class="funParagraph">Meat jelly, or aspic, has been a staple around the world for centuries, and is a
+               popular dish served with
                salads or as an appetizer. Certain cuts of meat contain a lot of gelatin, and so these parts are boiled
                overnight, and the resulting liquid is mixed with meat and vegetables and cooled to a solid. Try
                kholodets with carrots, garlic, and boiled egg as an appetizer before your meal.
@@ -137,18 +134,20 @@
       </article>
    </main>
    <footer>
-      <div>
-         Want to learn more?
+      <div id="footer">
+         <div id="footer-center">
+            Want to learn more?
+         </div>
+         <nav>
+            <li>
+               <a href="https://en.wikipedia.org/wiki/Russian_cuisine">Wikipedia: Russian Cuisine</a>
+            </li>
+            <li>
+               <a href="https://www.allrecipes.com/recipes/716/world-cuisine/european/eastern-european/russian/">Russian
+                  Recipes</a>
+            </li>
+         </nav>
       </div>
-      <nav>
-         <li>
-            <a href="https://en.wikipedia.org/wiki/Russian_cuisine">Wikipedia: Russian Cuisine</a>
-         </li>
-         <li>
-            <a href="https://www.allrecipes.com/recipes/716/world-cuisine/european/eastern-european/russian/">Russian
-               Recipes</a>
-         </li>
-      </nav>
    </footer>
 </body>
 
